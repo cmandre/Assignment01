@@ -6,7 +6,31 @@ using System.Threading.Tasks;
 
 namespace QueueLib
 {
-    class Stack280A
+    class Stack280A<T> : IStack<T>
     {
+        public T Count()
+        {
+            throw new NotImplementedException();
+        }
+
+        public T Empty()
+        {
+            throw new NotImplementedException();
+        }
+
+        public T Peek()
+        {
+            throw new NotImplementedException();
+        }
+
+        public T Pop()
+        {
+            throw new NotImplementedException();
+        }
+
+        public T Push()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
