@@ -8,7 +8,7 @@ namespace QueueLib
 {
     interface IStack <T>
     {
-        T Push();
+        void Push(T o);
 
         T Pop();
 
@@ -16,7 +16,7 @@ namespace QueueLib
 
         T Count();
 
-        T Empty();
+        bool Empty();
 
     }
 }
